@@ -12,6 +12,7 @@ module.exports = {
     extensions: ['.ts', '.js']
   },
   devtool: 'source-map',
+  target: 'node',
   module: {
     rules: [
       { test: /\.ts$/, loader: 'ts-loader' }
