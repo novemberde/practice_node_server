@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch src --delay 1 --exec 'ts-node' src/www.ts",
-    "start:bundle": "nodemon ./dist/dev.bundle.js --watch \"./dist\"",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
